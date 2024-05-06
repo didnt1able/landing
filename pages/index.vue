@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script  lang="ts">
 const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
 
 useSeoMeta({
